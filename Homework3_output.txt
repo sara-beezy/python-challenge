@@ -1,0 +1,53 @@
+Last login: Mon Dec 10 10:24:38 on ttys003
+You have mail.
+-bash: /Users/sarabi/.profile: No such file or directory
+Saras-MacBook-Pro-2:~ sarabi$ cd Github/
+Saras-MacBook-Pro-2:Github sarabi$ ls 
+README.md		python_challenge	vba
+Saras-MacBook-Pro-2:Github sarabi$ cd python_challenge/
+Saras-MacBook-Pro-2:python_challenge sarabi$ ls
+PyBank		PyPoll		README.md
+Saras-MacBook-Pro-2:python_challenge sarabi$ cd PyBank/
+Saras-MacBook-Pro-2:PyBank sarabi$ ls
+main.py
+Saras-MacBook-Pro-2:PyBank sarabi$ python3 main.py 
+Financial Analysis
+
+------------------
+
+Total Months: 86 
+
+Total: 38382578 
+
+Average  Change: -2315.1176470588234 
+
+Greatest Increase in Profits: ['Feb-2012'] , $1926159.0  
+
+Greatest Decrease in Profits: ['Sep-2013'] , $-2196167.0  
+
+Saras-MacBook-Pro-2:PyBank sarabi$ cd ..
+Saras-MacBook-Pro-2:python_challenge sarabi$ cd PyPoll/main.py 
+-bash: cd: PyPoll/main.py: Not a directory
+Saras-MacBook-Pro-2:python_challenge sarabi$ python PyPoll/main.py 
+(3521001, 3)
+3521001
+Election Results 
+
+------------------------- 
+
+Total Votes: 3521001 
+
+------------------------- 
+
+           Percentages  Voter ID
+Candidate                       
+Khan              0.63   2218231
+Correy            0.20    704200
+Li                0.14    492940
+O'Tooley          0.03    105630
+------------------------- 
+
+Winner: Khan
+------------------------- 
+
+Saras-MacBook-Pro-2:python_challenge sarabi$ 
